@@ -1,18 +1,25 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Duas amigas estão na fila para comprar ingressos para uma sessão de cinema. O preço dos ingressos,
+em Reais, é dado na tabela abaixo:</p>
+<img  title="example" src="{{MEDIA}}cinema.png" alt="example" style="max-height: 300px"/>
+<p>Dadas as idades das amigas, escreva um programa para calcular o total a ser pago pelos dois
+ingressos.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Dois inteiros representando a idade de cada uma das amigas.
+
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Um inteiro, representando o valor total em Reais a ser pago pelos dois ingressos.
+
+
 </p>
 
 
@@ -28,7 +35,11 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    total_ingressos(100, 10) == 35
+total_ingressos(17, 18) == 45
+total_ingressos(60, 17) == 35
+total_ingressos(18, 59) == 60
+total_ingressos(1, 100) == 35
 </pre>
 {% endif %}
 </div>

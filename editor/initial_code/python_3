@@ -1,1 +1,17 @@
-{{CODIGO INICIAL}}
+def total_ingressos(idade1, idade2):
+    # Seu código aqui
+    return None
+
+
+print("Example:")
+print(total_ingressos(100,10))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert total_ingressos(100, 10) == 35
+assert total_ingressos(17, 18) == 45
+assert total_ingressos(60, 17) == 35
+assert total_ingressos(18, 59) == 60
+assert total_ingressos(1, 100) == 35
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
